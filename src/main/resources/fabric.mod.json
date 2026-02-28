@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fpvdrone",
+  "version": "${version}",
+  "name": "FPVEffect",
+  "description": "Realistic FPV glitch simulation",
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.comedymoon.fpvdrone.FPVMod"
+    ]
+  },
+  "mixins": [
+    "fpvdrone.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
